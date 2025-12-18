@@ -6,3 +6,4 @@
 - [ ] **Ticket MYD-729:** "Unit testing for Resources app" - *Created on 2022-09-21, status 'To Do'.*
 - [ ] **Ticket MYD-730:** "[FEATURE] Wordpress Tags Integration" - *Created on 2022-09-21, status 'To Do'.*
 - [x] **Ticket MYD-1583:** "todo: add logging to acuity log on session booking notifs together with the details" - *Completed and assigned to Boaz Sze, story point estimate 7.*
+- [x] **Ticket MYD-1649:** "create a doc sheet for field mapping" - *Completed and assigned to Boaz Sze, story point estimate 1.*
