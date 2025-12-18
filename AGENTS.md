@@ -11,7 +11,7 @@ This file defines **how agents behave, how they are governed, and how they integ
 This repository acts as:
 - A **management assistant** for the engineering organization
 - A **source of truth** for operational knowledge
-- An **execution layer** for AI agents operating via opencode
+- An **execution layer** for AI agents operating via opencode or geminicli
 
 Agents may observe, recommend, debate, or act — depending on permissions.
 
@@ -42,18 +42,9 @@ Agents should:
 - Python is the primary execution language
 - Scripts must be runnable via opencode
 
-### Read‑Only by Default
-- New agents start in read‑only mode
-- Write actions require documented approval paths
-
 ### Human‑in‑the‑Loop
 - Agents must surface uncertainty
 - No silent destructive actions
-
-### Single Responsibility
-- One agent = one clear purpose
-- Collaboration happens through orchestration
-- Cross‑agent guidance and prioritization is handled by **Assistant Lead**
 
 ---
 
@@ -62,21 +53,14 @@ Agents should:
 ```text
 agents/
 └── agent_name/
-    ├── agent.py
     ├── TODO.md
-    ├── prompt.md
-    ├── config.yaml
+    ├── AGENTS.md
     └── README.md
 ```
 
 ---
 
 ## Permissions & Safety
-
-Agents must declare:
-- Tools accessed
-- Permission level
-- Environment scope
 
 Prohibited by default:
 - Deleting data
@@ -105,12 +89,7 @@ Agents must log:
 
 # Jira Integration / Jira MCP
 
-* agent: [jira-manager](.opencode/agent/jira-manager.md) will be managing these tickets
-* only focus on Jira project 'MYD: MY Software Engineering'
-* only interact with Jira project 'MYD: MY Software Engineering'
-* unresolved tickets only
-* for gemini: focus on tickets that are in [agents/jira-manager/TODO.md](agents/jira-manager/TODO.md)
-* for opencode: focus on tickets that are in [agents/jira-manager/TODO-2.md](agents/jira-manager/TODO-2.md)
+- all inside [agents/jira/AGENTS.md](agents/jira/AGENTS.md)
 
 ---
 

@@ -88,9 +88,7 @@ Serious teams run a router:
 
 ```text
 agents/          # Individual agent definitions
-knowledge/       # Operational docs and source‑of‑truth
 tools/           # Shared Python tool integrations
-governance/      # Permissions, approvals, audit rules
 ```
 
 ---

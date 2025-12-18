@@ -1,0 +1,7 @@
+- [ ] **Ticket MYD-327:** "fix docker setup in oauth2.0 backend" - *Created on 2022-07-04, status 'To Do'.*
+- [ ] **Ticket MYD-580:** "Reservation status update in admin page should also trigger transition effects" - *Created over 3 years ago, assigned to 'Raymund Viloria', status 'Staging'.* **Action:** Investigate and close or re-assign.
+- [ ] **Ticket MYD-595:** "Place province and city as a dropdown" - *Created over 3 years ago, assigned to 'Adrianne Cris Ledesma', status 'Staging'.* **Action:** estimate story point estimate value, add to active sprint, resolve as done
+- [ ] **Ticket MYD-699:** "Setup wordpress webhook for staging and production" - *Created over 3 years ago, unassigned, status 'Blocked'.* **Action:** estimate story point estimate value, add to active sprint, resolve as done, assign to me
+- [ ] **Ticket MYD-705:** "Upgrade docker local setup for oauth backend server" - *Created on 2022-09-19, status 'To Do'.*
+- [ ] **Ticket MYD-729:** "Unit testing for Resources app" - *Created on 2022-09-21, status 'To Do'.*
+- [ ] **Ticket MYD-730:** "[FEATURE] Wordpress Tags Integration" - *Created on 2022-09-21, status 'To Do'.*
