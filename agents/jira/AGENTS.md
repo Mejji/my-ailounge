@@ -156,6 +156,10 @@
 }
 ```
 
+### Field IDs for Story Points
+*   "Story point estimate": `customfield_10016`
+*   "Story Points": `customfield_10026`
+
 ## Statuses
 *from `statuses.json`*
 
