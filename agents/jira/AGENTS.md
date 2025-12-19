@@ -21,9 +21,9 @@
 - use `cloud_id`: `c4b4e301-6c65-41b0-b962-37930a556a65`
 
 ### atlassianUserInfo Output use this for main account:
-- "account_id":"627a1d3ba20bd0006fd98447"
-- "email":"boaz@mindyou.com.ph"
-- "name":"Boaz Sze",
+- `account_id`:`627a1d3ba20bd0006fd98447`
+- `email`:`boaz@mindyou.com.ph`
+- `name`:`Boaz Sze`,
 
 ### getTransitionsForJiraIssue Output all transitions/statuses:
 
