@@ -46,8 +46,8 @@ This separation is intentional and helps optimize for:
 - Cognitive clarity
 
 
-## 💸 API Pricing
-- [Pricing Models and Cost Analysis](./pricing.md) - This document outlines the pricing models for LLMs and cloud services (e.g., AWS), detailing cost factors and optimization strategies for managing expenses within the AI Factory.
+## 💸 Model Pricing & Market Analysis
+- [AI Coding Model Analysis](./pricing.md) - For a detailed market analysis of the models listed below, including in-depth developer reviews, pricing breakdowns, and benchmark data, please refer to this document. It provides the foundational research that informs our model strategy.
 
 
 ## Best Model Per Role
