@@ -249,7 +249,7 @@ Here is a list of the top-used AI models for coding, including global and region
 
 *   **Efficiency & Effectiveness:**
     *   Demonstrates an average level of proficiency in coding, particularly in Python.
-    *   It can handle coding tasks of varying difficulty but has been noted to have shortcomings, such as an inability to identify errors in its own code.
+    *   It can handle coding tasks of varying difficulty but has been noted to have shortcomings, suchs an inability to identify errors in its own code.
     *   It struggles with maintaining conversational context, which can be a drawback for iterative coding tasks.
 
 *   **Developer Reviews Summary:**
@@ -345,3 +345,26 @@ Based on the developer reviews from the research, a few models stand out as bein
 *   **GitHub Copilot & JetBrains Junie:** While these have more mixed reviews, they are "loved" for a different reason: their deep and seamless integration into the developer's workflow.
     *   **Copilot** is a "love-hate" for some, but its convenience within VS Code is undeniable.
     *   **Junie** is praised for its ambitious, test-first approach within JetBrains IDEs, even if it's sometimes slow or "too eager." Developers who are heavily invested in these ecosystems often find these tools indispensable.
+
+## 6. External Pricing References
+
+### Official API Pricing Pages
+
+- **OpenAI**
+    - [OpenAI API Pricing (docs)](https://platform.openai.com/docs/pricing)
+    - [OpenAI API Pricing (main)](https://openai.com/api/pricing/)
+- **Google Gemini**
+    - [Gemini API Pricing (docs)](https://ai.google.dev/gemini-api/docs/pricing)
+    - [Gemini API Pricing (main)](https://ai.google.dev/pricing)
+- **Anthropic**
+    - [Anthropic API Pricing](https://www.anthropic.com/api-pricing)
+- **DeepSeek**
+    - [DeepSeek API Pricing](https://api-docs.deepseek.com/quick_start/pricing)
+- **Manus**
+    - [Manus Pricing](https://manus.im/pricing)
+
+### Aggregated and Community Resources
+
+- **t3dotgg Gist:** [Rough list of popular AI models and costs (per 1M tokens)](https://gist.github.com/t3dotgg/a4bb252e590320e223e71c595e60e6be)
+- **Helicone LLM Cost Calculator:** [LLM API Pricing Calculator (free tool)](https://www.helicone.ai/llm-cost)
+- **Pydantic genai-prices:** [GitHub repo tracking Generative AI prices](https://github.com/pydantic/genai-prices)

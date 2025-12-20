@@ -46,6 +46,9 @@
 
 - [strix](https://github.com/usestrix/strix) - Open-source AI agents for penetration testing.
 
+# Checker
+
+- [SandboxFusion](https://bytedance.github.io/SandboxFusion/docs/docs/get-started)
 
 # 💬 Discussion
 
@@ -55,5 +58,3 @@
 # 💸 Pricing & Cost Analysis
 
 - [Pricing Models and Cost Analysis](./pricing.md) - This document outlines the pricing models for LLMs and cloud services (e.g., AWS), detailing cost factors and optimization strategies for managing expenses within the AI Factory.
-- [LLM API Pricing Calculator](https://www.helicone.ai/llm-cost) - Calculate the cost of using AI models with Helicone's free pricing tool.
-- [genai-prices](https://github.com/pydantic/genai-prices)
