@@ -18,9 +18,10 @@
 - [zed](https://zed.dev/)
 - [vscode]()
 
-# Steroids
+# 💊 Open Code Steroids
 
-- [Auto-Claude](https://github.com/AndyMik90/Auto-Claude) - Autonomous multi-session AI coding
+- [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) - massive steroid injection; just **do not** setup the **auth providers** because they are failing as of 12-21-2025
+- [OpenAgents](https://github.com/darrenhinde/OpenAgents) - minor steroid injection
 
 
 # 📰 Articles
