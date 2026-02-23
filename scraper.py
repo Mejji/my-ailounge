@@ -34,6 +34,8 @@ def get_trending_repos():
 
 def format_slack_message(repos):
     # Format the message using Slack's Block Kit for a cleaner look
+    rank_emojis = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+
     blocks = [
         {
             "type": "header",
@@ -44,16 +46,18 @@ def format_slack_message(repos):
         },
         {"type": "divider"}
     ]
-    
-    for repo in repos:
+
+    for i, repo in enumerate(repos):
+        rank = rank_emojis[i] if i < len(rank_emojis) else f"#{i + 1}"
         blocks.append({
             "type": "section",
             "text": {
                 "type": "mrkdwn",
-                "text": f"*{repo['name']}*\n{repo['description']}\n<{repo['url']}|View Repository>"
+                "text": f"{rank}  *<{repo['url']}|{repo['name']}>*\n_{repo['description']}_"
             }
         })
-        
+        blocks.append({"type": "divider"})
+
     return {"blocks": blocks}
 
 def send_to_slack(message):
@@ -69,8 +73,8 @@ def save_to_markdown(repos):
     date_str = datetime.now().strftime("%Y-%m-%d")
     with open(MD_FILE_PATH, "a") as f:
         f.write(f"\n## Trending on {date_str}\n\n")
-        for repo in repos:
-            f.write(f"- **[{repo['name']}]({repo['url']})**: {repo['description']}\n")
+        for i, repo in enumerate(repos, start=1):
+            f.write(f"{i}. **[{repo['name']}]({repo['url']})**: {repo['description']}\n")
 
 if __name__ == "__main__":
     trending_repos = get_trending_repos()
