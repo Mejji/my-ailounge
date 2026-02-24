@@ -432,8 +432,9 @@ Our team uses Gemini CLI for:
 
 > **Team Philosophy:** Gemini uses auto model selection, which is sufficient for most tasks. The system decides when to switch models automatically.
 
-### Step 1: Install Gemini CLI
+### Step 1: Install Gemini CLI (internal package)
 
+Gemini CLI is published to our **private npm registry** and is not available on the public npm registry. Make sure you have completed the internal "Private npm registry access" setup before running the command below.
 ```bash
 npm install -g gemini-cli
 ```
