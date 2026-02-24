@@ -32,7 +32,7 @@ Welcome to the Mind You AI ecosystem, where you can supercharge your workflows w
 This guide walks you through:
 - Getting GitHub Copilot through GitHub Education
 - Getting Gemini Pro through Google Education  
-- Setting up VS Code with Copilot IDE
+- Setting up VS Code with GitHub Copilot
 - Installing and configuring opencode CLI
 - Installing and configuring Gemini CLI
 - Complete verification and testing
