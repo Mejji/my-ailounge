@@ -30,3 +30,5 @@
 3. **[OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)**: No description provided.
 4. **[LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)**: No description provided.
 5. **[x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)**: No description provided.
+
+- https://github.com/zeroclaw-labs/zeroclaw (Added via Slack)
