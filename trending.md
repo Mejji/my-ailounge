@@ -33,3 +33,4 @@
 
 - https://github.com/zeroclaw-labs/zeroclaw (Added via Slack)
 - https://github.com/PatrickJS/awesome-cursorrules (Added via Slack)
+- https://github.com/eigent-ai/eigent (Added via Slack)
