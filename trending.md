@@ -36,3 +36,4 @@
 - https://github.com/eigent-ai/eigent (Added via Slack)
 - [General Resource] https://pi.dev/ (Added 2026-02-26)
 - [YouTube Video] https://www.youtube.com/watch?v=1uCE0uoKXL8 (Added 2026-02-26)
+- [General Resource] https://www.vals.ai/benchmarks/swebench (Added 2026-02-26)
