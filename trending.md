@@ -32,3 +32,4 @@
 5. **[x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)**: No description provided.
 
 - https://github.com/zeroclaw-labs/zeroclaw (Added via Slack)
+- https://github.com/PatrickJS/awesome-cursorrules (Added via Slack)
