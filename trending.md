@@ -38,3 +38,10 @@
 - [YouTube Video] https://www.youtube.com/watch?v=1uCE0uoKXL8 (Added 2026-02-26)
 - [General Resource] https://www.vals.ai/benchmarks/swebench (Added 2026-02-26)
 - [GitHub Repository] https://github.com/KeygraphHQ/shannon (Added 2026-02-27)
+## Trending on 2026-02-27
+
+1. **[clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)**: No description provided.
+2. **[obra/superpowers](https://github.com/obra/superpowers)**: No description provided.
+3. **[muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)**: No description provided.
+4. **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)**: No description provided.
+5. **[huggingface/skills](https://github.com/huggingface/skills)**: No description provided.
