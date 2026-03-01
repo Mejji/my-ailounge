@@ -69,3 +69,7 @@
 3. **[anthropics/claude-code](https://github.com/anthropics/claude-code)**: No description provided.
 4. **[tukaani-project/xz](https://github.com/tukaani-project/xz)**: No description provided.
 5. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**: No description provided.
+
+
+### Trending on 2026-03-01
+- https://github.com/ruvnet/wifi-densepose
