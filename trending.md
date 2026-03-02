@@ -81,3 +81,5 @@
 3. **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)**: No description provided.
 4. **[microsoft/markitdown](https://github.com/microsoft/markitdown)**: No description provided.
 5. **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)**: No description provided.
+
+- [General Resource] https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/Howstuffworks.htm (Added 2026-03-02)
