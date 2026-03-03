@@ -70,3 +70,11 @@
 3. **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)**: No description provided.
 4. **[microsoft/markitdown](https://github.com/microsoft/markitdown)**: No description provided.
 5. **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)**: No description provided.
+
+## Trending on 2026-03-03
+
+1. **[ruvnet/RuView](https://github.com/ruvnet/RuView)**: No description provided.
+2. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
+3. **[anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)**: No description provided.
+4. **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)**: No description provided.
+5. **[alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)**: No description provided.
