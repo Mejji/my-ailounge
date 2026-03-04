@@ -102,3 +102,7 @@
 3. **[K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)**: No description provided.
 4. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
 5. **[CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)**: No description provided.
+
+
+### Trending on 2026-03-04
+- https://github.com/msitarzewski/agency-agents
