@@ -94,3 +94,11 @@
 
 ### Trending on 2026-03-03
 - https://github.com/ruvnet/RuView
+
+## Trending on 2026-03-04
+
+1. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
+2. **[ruvnet/RuView](https://github.com/ruvnet/RuView)**: No description provided.
+3. **[K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)**: No description provided.
+4. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
+5. **[CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)**: No description provided.
