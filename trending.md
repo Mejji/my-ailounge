@@ -106,3 +106,11 @@
 
 ### Trending on 2026-03-04
 - https://github.com/msitarzewski/agency-agents
+
+## Trending on 2026-03-05
+
+1. **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)**: No description provided.
+2. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
+3. **[aquasecurity/trivy](https://github.com/aquasecurity/trivy)**: No description provided.
+4. **[K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)**: No description provided.
+5. **[CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)**: No description provided.
