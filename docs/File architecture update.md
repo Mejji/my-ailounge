@@ -27,7 +27,7 @@ This document outlines the reorganization of the `my-ailounge` repository to fol
 4. **Move Source Code to `/src/`:**
    - `scraper.py`
 5. **Move Brainstorming & Ideas to `/ideas/`:**
-   - `trending.md`
+    - `ideas/trending.md`
    - `to-discuss.md`
 6. **Move Personal Scratchpads to `/shawn/`:**
    - `Shawn_TO-DO.md`
