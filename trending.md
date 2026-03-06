@@ -71,9 +71,6 @@
 5. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**: No description provided.
 
 
-### Trending on 2026-03-01
-- https://github.com/ruvnet/wifi-densepose
-
 ## Trending on 2026-03-02
 
 1. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
