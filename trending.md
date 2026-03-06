@@ -96,10 +96,6 @@
 4. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
 5. **[CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)**: No description provided.
 
-
-### Trending on 2026-03-04
-- https://github.com/msitarzewski/agency-agents
-
 ## Trending on 2026-03-05
 
 1. **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)**: No description provided.
