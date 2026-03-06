@@ -115,3 +115,7 @@
 3. **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)**: No description provided.
 4. **[aquasecurity/trivy](https://github.com/aquasecurity/trivy)**: No description provided.
 5. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
+
+
+### Trending on 2026-03-06
+- https://github.com/msitarzewski/agency-agents
