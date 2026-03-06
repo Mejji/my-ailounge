@@ -88,10 +88,6 @@
 4. **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)**: No description provided.
 5. **[alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox)**: No description provided.
 
-
-### Trending on 2026-03-03
-- https://github.com/ruvnet/RuView
-
 ## Trending on 2026-03-04
 
 1. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
