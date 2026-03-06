@@ -118,3 +118,11 @@
 
 ### Trending on 2026-03-05
 - https://github.com/KeygraphHQ/shannon
+
+## Trending on 2026-03-06
+
+1. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
+2. **[TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine)**: No description provided.
+3. **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)**: No description provided.
+4. **[aquasecurity/trivy](https://github.com/aquasecurity/trivy)**: No description provided.
+5. **[moeru-ai/airi](https://github.com/moeru-ai/airi)**: No description provided.
