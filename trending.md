@@ -139,3 +139,7 @@
 3. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
 4. **[GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)**: No description provided.
 5. **[agentjido/jido](https://github.com/agentjido/jido)**: No description provided.
+
+
+### Trending on 2026-03-08
+- https://github.com/666ghj/MiroFish
