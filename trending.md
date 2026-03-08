@@ -131,3 +131,11 @@
 
 ### Trending on 2026-03-07
 - https://github.com/moeru-ai/airi
+
+## Trending on 2026-03-08
+
+1. **[666ghj/MiroFish](https://github.com/666ghj/MiroFish)**: No description provided.
+2. **[openai/skills](https://github.com/openai/skills)**: No description provided.
+3. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
+4. **[GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)**: No description provided.
+5. **[agentjido/jido](https://github.com/agentjido/jido)**: No description provided.
