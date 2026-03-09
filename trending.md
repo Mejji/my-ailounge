@@ -151,3 +151,7 @@
 3. **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)**: No description provided.
 4. **[openclaw/openclaw](https://github.com/openclaw/openclaw)**: No description provided.
 5. **[toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)**: No description provided.
+
+
+### Trending on 2026-03-09
+- https://github.com/GoogleCloudPlatform/generative-ai
