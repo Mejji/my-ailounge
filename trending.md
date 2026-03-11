@@ -167,3 +167,11 @@
 
 ### Trending on 2026-03-10
 - https://github.com/GoogleCloudPlatform/generative-ai
+
+## Trending on 2026-03-11
+
+1. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
+2. **[666ghj/MiroFish](https://github.com/666ghj/MiroFish)**: No description provided.
+3. **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: No description provided.
+4. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)**: No description provided.
+5. **[GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)**: No description provided.
