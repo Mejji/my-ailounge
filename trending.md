@@ -175,3 +175,7 @@
 3. **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: No description provided.
 4. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)**: No description provided.
 5. **[GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)**: No description provided.
+
+
+### Trending on 2026-03-11
+- https://github.com/msitarzewski/agency-agents
