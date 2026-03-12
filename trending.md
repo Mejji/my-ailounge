@@ -179,3 +179,11 @@
 
 ### Trending on 2026-03-11
 - https://github.com/msitarzewski/agency-agents
+
+## Trending on 2026-03-12
+
+1. **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)**: No description provided.
+2. **[666ghj/MiroFish](https://github.com/666ghj/MiroFish)**: No description provided.
+3. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)**: No description provided.
+4. **[obra/superpowers](https://github.com/obra/superpowers)**: No description provided.
+5. **[fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)**: No description provided.
