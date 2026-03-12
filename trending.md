@@ -187,3 +187,7 @@
 3. **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)**: No description provided.
 4. **[obra/superpowers](https://github.com/obra/superpowers)**: No description provided.
 5. **[fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)**: No description provided.
+
+
+### Trending on 2026-03-12
+- https://github.com/msitarzewski/agency-agents
