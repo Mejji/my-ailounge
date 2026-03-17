@@ -1,0 +1,185 @@
+Project mind_you_api_phq9 {
+  database_type: "PostgreSQL"
+  Note: "PHQ9 schema extracted from Django models/migrations."
+}
+
+/* External table (referenced by PHQ9 models) */
+Table users_user {
+  id int [pk]
+}
+
+/* Core PHQ9 tables */
+
+Table mindyou_question {
+  id int [pk, increment]
+  disabled boolean [not null, default: false]
+  disabled_at datetime
+  disabled_by_id int
+  created_at datetime
+  created_by_id int
+  updated_at datetime
+  updated_by_id int
+
+  question text [not null]
+  tip text
+  order int [not null, default: 0]
+  zoho_api_name text
+
+  Note: "PHQ9 Question"
+}
+
+Table mindyou_answerselection {
+  id int [pk, increment]
+  disabled boolean [not null, default: false]
+  disabled_at datetime
+  disabled_by_id int
+  created_at datetime
+  created_by_id int
+  updated_at datetime
+  updated_by_id int
+
+  content text [not null, unique]
+  score int [not null, default: 0]
+
+  Note: "PHQ9 Answer Selection"
+}
+
+Table mindyou_question_answer_selections {
+  id int [pk, increment]
+  question_id int [not null]
+  answerselection_id int [not null]
+
+  indexes {
+    (question_id, answerselection_id) [unique]
+  }
+
+  Note: "Auto-generated M2M join table for Question.answer_selections"
+}
+
+Table mindyou_answer {
+  id int [pk, increment]
+  question_id int [not null]
+  answer_id int [not null]
+  answered_by_id int [not null]
+  created_at datetime
+
+  indexes {
+    (question_id, answered_by_id) [unique]
+  }
+
+  Note: "PHQ9 Answer"
+}
+
+Table mindyou_usersurveyansweringprogress {
+  id int [pk, increment]
+  user_id int [not null, unique] // OneToOne to users_user
+  last_answered_question_id int
+  next_question_id int
+  survey_done boolean [not null, default: false]
+  total_score int [not null, default: 0]
+  created_at datetime
+  updated_at datetime
+
+  Note: "User PHQ9 Survey Progress Result"
+}
+
+/* Historical PHQ9 tables (django-simple-history) */
+
+Table mindyou_historicalquestion {
+  history_id int [pk, increment]
+  id int
+  disabled boolean [not null, default: false]
+  disabled_at datetime
+  disabled_by_id int
+  created_at datetime
+  created_by_id int
+  updated_at datetime
+  updated_by_id int
+
+  question text
+  tip text
+  order int
+  zoho_api_name text
+
+  history_date datetime [not null]
+  history_change_reason varchar(100)
+  history_type varchar(1) [not null] // +, ~, -
+  history_user_id int
+}
+
+Table mindyou_historicalanswerselection {
+  history_id int [pk, increment]
+  id int
+  disabled boolean [not null, default: false]
+  disabled_at datetime
+  disabled_by_id int
+  created_at datetime
+  created_by_id int
+  updated_at datetime
+  updated_by_id int
+
+  content text
+  score int
+
+  history_date datetime [not null]
+  history_change_reason varchar(100)
+  history_type varchar(1) [not null] // +, ~, -
+  history_user_id int
+}
+
+Table mindyou_historicalanswer {
+  history_id int [pk, increment]
+  id int
+  question_id int
+  answer_id int
+  answered_by_id int
+  created_at datetime
+
+  history_date datetime [not null]
+  history_change_reason varchar(100)
+  history_type varchar(1) [not null] // +, ~, -
+  history_user_id int
+}
+
+Table mindyou_historicalusersurveyansweringprogress {
+  history_id int [pk, increment]
+  id int
+  user_id int
+  last_answered_question_id int
+  next_question_id int
+  survey_done boolean
+  total_score int
+  created_at datetime
+  updated_at datetime
+
+  history_date datetime [not null]
+  history_change_reason varchar(100)
+  history_type varchar(1) [not null] // +, ~, -
+  history_user_id int
+}
+
+/* Relationships */
+
+Ref: mindyou_question.disabled_by_id > users_user.id
+Ref: mindyou_question.created_by_id > users_user.id
+Ref: mindyou_question.updated_by_id > users_user.id
+
+Ref: mindyou_answerselection.disabled_by_id > users_user.id
+Ref: mindyou_answerselection.created_by_id > users_user.id
+Ref: mindyou_answerselection.updated_by_id > users_user.id
+
+Ref: mindyou_question_answer_selections.question_id > mindyou_question.id
+Ref: mindyou_question_answer_selections.answerselection_id > mindyou_answerselection.id
+
+Ref: mindyou_answer.question_id > mindyou_question.id
+Ref: mindyou_answer.answer_id > mindyou_answerselection.id
+Ref: mindyou_answer.answered_by_id > users_user.id
+
+Ref: mindyou_usersurveyansweringprogress.user_id - users_user.id
+Ref: mindyou_usersurveyansweringprogress.last_answered_question_id > mindyou_question.id
+Ref: mindyou_usersurveyansweringprogress.next_question_id > mindyou_question.id
+
+Ref: mindyou_historicalquestion.history_user_id > users_user.id
+Ref: mindyou_historicalanswerselection.history_user_id > users_user.id
+Ref: mindyou_historicalanswer.history_user_id > users_user.id
+Ref: mindyou_historicalusersurveyansweringprogress.history_user_id > users_user.id
