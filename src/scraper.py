@@ -7,7 +7,7 @@ from datetime import datetime
 # Configuration
 SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 GITHUB_TRENDING_URL = "https://github.com/trending"
-MD_FILE_PATH = "trending.md"
+MD_FILE_PATH = "ideas/trending.md"
 
 def get_trending_repos():
     # Fetch the trending page

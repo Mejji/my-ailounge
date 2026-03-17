@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add trending.md
+          git add ideas/trending.md
           
           # Only commit and push if the markdown file actually changed
           git diff --quiet && git diff --staged --quiet || (git commit -m "docs: auto-update daily trending repos" && git push)
